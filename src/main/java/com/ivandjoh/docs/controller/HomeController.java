@@ -11,7 +11,6 @@ public class HomeController {
     @GetMapping("/home")
     public String getHome() {
 
-        String home = "Welcome to the home page!";
-        return "Hello " + home;
+        return "Hello, Welcome to the home page!";
     }
 }
